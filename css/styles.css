@@ -13,8 +13,19 @@ body {
 h1 {
   font-family: 'Cormorant Garamond', serif;
   color: #ffff;
+  font-size: 106px;
+  text-transform: capitalize;
 }
 
+/* Navigation
+----------------------------------------------*/
+.nav-item {
+  margin-right: 30px;
+}
+.scroll {
+  background-color: #A1572F;
+  color: #eef;
+}
 /* Header
 ----------------------------------------------*/
 header {
