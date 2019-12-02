@@ -10,8 +10,10 @@ body {
   font-size: 100%;
   color: #303030;
 }
-
-
+h1 {
+  font-family: 'Cormorant Garamond', serif;
+  color: #ffff;
+}
 
 /* Header
 ----------------------------------------------*/
@@ -24,8 +26,8 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.container text-center {
-  margin-top: 25%;
+.text-center {
+  margin-top: 15%;
 }
 section {
   padding: 150px 0;
