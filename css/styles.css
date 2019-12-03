@@ -1,20 +1,44 @@
 /* Fonts 
 ----------------------------------------------*/
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,500i,600,700,700i&display=swap');
 
 /* Global styles
 ----------------------------------------------*/
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 100%;
-  color: #303030;
+  font-weight: 300;
+  color: #646464;
 }
 h1 {
   font-family: 'Cormorant Garamond', serif;
   color: #ffff;
+  font-weight: 700;
   font-size: 106px;
+  font-style: italic;
   text-transform: capitalize;
+}
+h2 {
+  font-family: 'Cormorant Garamond', serif;
+  color: #303030;
+  font-weight: 700;
+  font-size: 45px;
+  text-transform: capitalize;
+}
+h3 {
+  font-family: 'Cormorant Garamond', serif;
+  color: #303030;
+  font-weight: 400;
+  font-size: 40px;
+  font-style: italic;
+  text-transform: capitalize;
+}
+p {
+font-size: 15px;
+}
+section {
+  padding: 130px 0;
 }
 
 /* Navigation
@@ -26,6 +50,7 @@ h1 {
   background-color: #A1572F;
   color: #eef;
 }
+
 /* Header
 ----------------------------------------------*/
 header {
@@ -43,6 +68,16 @@ header {
 .text-center img {
   margin-bottom: -55px;
 }
-section {
-  padding: 150px 0;
+
+/* About
+----------------------------------------------*/
+#about {
+background-image: url("../img/Always-fresh2.jpg");
+background-color: #cccccc;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+#about img {
+
 }
