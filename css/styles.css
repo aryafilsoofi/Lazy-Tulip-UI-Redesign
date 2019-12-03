@@ -22,7 +22,7 @@ h1 {
 h2 {
   font-family: 'Cormorant Garamond', serif;
   color: #303030;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 45px;
   text-transform: capitalize;
 }
@@ -33,6 +33,9 @@ h3 {
   font-size: 40px;
   font-style: italic;
   text-transform: capitalize;
+}
+strong {
+  color: #3b6d8d;
 }
 p {
 font-size: 15px;
@@ -73,11 +76,33 @@ header {
 ----------------------------------------------*/
 #about {
 background-image: url("../img/Always-fresh2.jpg");
-background-color: #cccccc;
+background-color: #ef4849;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 }
-#about img {
 
+/* Slogan
+----------------------------------------------*/
+.overlay {
+  background-color: #3030303b;
+}
+#slogan {
+  background-image: url("../img/buddha.jpg");
+  background-color: #cccccc;
+  height: 40vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#slogan h2 {
+  font-family: 'Cormorant Garamond', serif;
+  color: #ffff;
+  font-weight: 600;
+  font-style: italic;
+  text-transform: lowercase;
+}
+#slogan .text-center {
+  margin-top: 2%;
 }
