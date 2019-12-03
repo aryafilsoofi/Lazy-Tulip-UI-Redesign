@@ -38,7 +38,10 @@ header {
   background-size: cover;
 }
 .text-center {
-  margin-top: 15%;
+  margin-top: 6%;
+}
+.text-center img {
+  margin-bottom: -55px;
 }
 section {
   padding: 150px 0;
