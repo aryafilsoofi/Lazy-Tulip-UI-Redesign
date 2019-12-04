@@ -9,6 +9,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 100%;
   font-weight: 300;
+  line-height: 30px;
   color: #646464;
 }
 h1 {
@@ -24,12 +25,13 @@ h2 {
   color: #303030;
   font-weight: 500;
   font-size: 45px;
+  font-style: italic;
   text-transform: capitalize;
 }
 h3 {
   font-family: 'Cormorant Garamond', serif;
   color: #303030;
-  font-weight: 400;
+  font-weight: 500i;
   font-size: 40px;
   font-style: italic;
   text-transform: capitalize;
@@ -105,4 +107,14 @@ background-size: cover;
 }
 #slogan .text-center {
   margin-top: 2%;
+}
+
+/* Menu
+----------------------------------------------*/
+#menu {
+  background-image: url("../img/background-tulip.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

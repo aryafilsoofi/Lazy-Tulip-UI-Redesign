@@ -15,6 +15,7 @@
 
   <!-- Custom styles for this template -->
   <link href="css/styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
 </head>
 
@@ -33,7 +34,7 @@
             <a class="nav-link js-scroll-trigger" href="#about">about</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#menu">menu</a>
+            <a class="nav-link js-scroll-trigger" href="#menu-intro">menu</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#news">news</a>
@@ -51,6 +52,7 @@
     <div class="container text-center"> <!-- container open -->
         <img src="img/logo-flower-white.svg" class="img-fluid" width="500" height="auto" alt="Responsive image">
       <h1><span class="rotate">Fresh meets, happiness, friendship, enjoyment</span></h1>
+      <a class="js-scroll-trigger" href="#about"><img src="img/arrow.svg" class="img-fluid" width="300" height="auto" alt="Responsive image"></a>
     </div><!-- container close -->
   </header>
 
@@ -65,28 +67,28 @@
 
       <div class="row justify-content-center"><!-- row open -->
       <!-- first image -->
-      <div class="col-lg-4 col-md-6 text-center py-4 px-5 ">
-          <img src="img/smoothies.png" class="img-fluid mb-5" alt="Responsive image">
-          <h3 class="mb-4"> <strong>Always</strong>Fresh</h3>
+      <div data-wow-duration="3s" data-wow-delay=".5s" class="col-lg-4 col-md-6 text-center py-4 px-5 wow fadeInUp">
+          <img  src="img/smoothies.png" class="img-fluid mb-5" alt="Responsive image">
+          <h3 class="mb-4"> <strong>Always</strong> Fresh</h3>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
       </div>
       <!-- second image -->
-      <div class="col-lg-4 col-md-6 text-center  py-4 px-5 ">
+      <div data-wow-duration="3s" data-wow-delay=".7s" class="col-lg-4 col-md-6 text-center py-4 px-5 wow fadeInUp">
           <img src="img/coffee.png" class="img-fluid mb-5" alt="Responsive image">
-          <h3 class="mb-4"> <strong>Humble</strong>Feelings</h3>
+          <h3 class="mb-4"> <strong>Humble</strong> Feelings</h3>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
       </div>
       <!-- third image -->
-      <div class="col-lg-4 col-md-6 text-center py-4 px-5 ">
+      <div data-wow-duration="3s" data-wow-delay=".9s" class="col-lg-4 col-md-6 text-center py-4 px-5 wow fadeInUp">
           <img src="img/organic-toast.png" class="img-fluid mb-5" alt="Responsive image">
-          <h3 class="mb-4"> <strong>Tasteful</strong>Choices</h3>
+          <h3 class="mb-4"> <strong>Tasteful</strong> Choices</h3>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
       </div>
     </div><!-- row close -->
     </div><!-- container close -->
   </section>
 
-  <section id="slogan" class="bg-dark">
+  <section id="slogan">
     <div class="container"><!-- container open -->
       <div class="row justify-content-center"><!-- row open -->
         <div class="col-lg-8 text-center">
@@ -97,7 +99,21 @@
     </div><!-- container close -->
   </section>
 
-  <section id="menu">
+  <section id="menu-intro">
+    <div class="container-fluid"><!-- container open -->
+      <div class="row"><!-- row open -->
+        <div class="col-lg-3 col-md-12 p-0">
+          <img src="img/bowl-of-hearts.jpg" class="mb-5 shadow" alt="Responsive image">
+        </div>
+        <div class="col-lg-3 offset-lg-3 col-md-12 my-auto px-5">
+          <h2 class="mb-4">Come See our <strong>Eats</strong></h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+        </div>
+      </div><!-- row close -->
+    </div><!-- container close -->
+  </section>
+
+  <!-- <section id="menu">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
@@ -106,7 +122,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- Footer -->
   <footer class="py-5 bg-dark">
@@ -126,6 +142,9 @@
   <!-- Custom JavaScript for this theme -->
   <script src="js/scrolling-nav.js"></script>
   <script src="js/text-rotator.min.js"></script>
+  <!-- wow animations -->
+  <script src="js/wow.min.js"></script>
+  <script> new WOW().init(); </script>
 
 </body>
 
