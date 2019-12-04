@@ -60,7 +60,7 @@ font-size: 15px;
   width: 30%;
 }
 section {
-  padding: 130px 0;
+  padding: 150px 0;
 }
 
 /* Navigation
@@ -150,6 +150,13 @@ background-size: cover;
 #menu-intro {
   background-image: url("../img/background-tulip.jpg");
   background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#menu {
+  background-image: url("../img/bowls-of-food.png");
+  background-color: #ffff;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
