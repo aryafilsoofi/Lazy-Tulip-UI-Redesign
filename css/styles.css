@@ -31,7 +31,7 @@ h2 {
 h3 {
   font-family: 'Cormorant Garamond', serif;
   color: #303030;
-  font-weight: 500i;
+  font-weight: 500;
   font-size: 40px;
   font-style: italic;
   text-transform: capitalize;
@@ -41,6 +41,23 @@ strong {
 }
 p {
 font-size: 15px;
+}
+.btn-outline-secondary {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 500;
+  font-size: 18px;
+  font-style: italic;
+  color: #3b6d8d;
+  border: solid 1px #3b6d8d;
+  width: 30%;
+  transition: all .4s ease-out;
+}
+.btn-outline-secondary:hover {
+  color: #fff;
+  background-color: #3b6d8d;
+  border: solid 1px #3b6d8d;
+  transition: all .4s ease-in;
+  width: 30%;
 }
 section {
   padding: 130px 0;
@@ -129,7 +146,7 @@ background-size: cover;
 
 /* Menu
 ----------------------------------------------*/
-#menu {
+#menu-intro {
   background-image: url("../img/background-tulip.jpg");
   background-color: #cccccc;
   background-position: center;
