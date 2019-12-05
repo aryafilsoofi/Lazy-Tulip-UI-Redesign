@@ -45,11 +45,11 @@ font-size: 15px;
 .btn-outline-secondary {
   font-family: 'Cormorant Garamond', serif;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 20px;
   font-style: italic;
   color: #3b6d8d;
   border: solid 1px #3b6d8d;
-  width: 30%;
+  width: 40%;
   transition: all .4s ease-out;
 }
 .btn-outline-secondary:hover {
@@ -57,7 +57,7 @@ font-size: 15px;
   background-color: #3b6d8d;
   border: solid 1px #3b6d8d;
   transition: all .4s ease-in;
-  width: 30%;
+  width: 40%;
 }
 section {
   padding: 150px 0;
@@ -160,4 +160,33 @@ background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/* Menu Tabs */
+.nav-link.active a {
+  font-family: 'Montserrat', sans-serif;
+  color: #3b6d8d;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: capitalize;
+  text-decoration: none;
+  transition: all .2s ease-in;
+}
+li a {
+  font-family: 'Montserrat', sans-serif;
+  color: #3b6d8d;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: capitalize;
+  text-decoration: none;
+  transition: all .2s ease-in;
+}
+li a:hover {
+  text-decoration: none;
+  color: #d8c589;
+}
+.nav-tabs .nav-link.active {
+  color: #d8c589;
+  background-color: rgba(255, 255, 255, 0);
+  border-color: #dee2e600 #dee2e600 rgba(255, 255, 255, 0);
 }
