@@ -72,7 +72,15 @@ section {
   background-color: #A1572F;
   color: #eef;
 }
+.navbar {
+  transition:500ms ease;
+  background:transparent;
+}
+/* add nav background color on scroll */
+.navbar-expand-lg.scrolled {
+  background:rgba(59, 109, 140, 0.68);
 
+}
 /* Header
 ----------------------------------------------*/
 header {
