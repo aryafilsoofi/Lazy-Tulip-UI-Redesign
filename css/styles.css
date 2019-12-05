@@ -49,7 +49,7 @@ font-size: 15px;
   font-style: italic;
   color: #3b6d8d;
   border: solid 1px #3b6d8d;
-  width: 40%;
+  width: 32%;
   transition: all .4s ease-out;
 }
 .btn-outline-secondary:hover {
@@ -57,7 +57,7 @@ font-size: 15px;
   background-color: #3b6d8d;
   border: solid 1px #3b6d8d;
   transition: all .4s ease-in;
-  width: 40%;
+  width: 32%;
 }
 section {
   padding: 150px 0;
