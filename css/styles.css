@@ -59,6 +59,7 @@ font-size: 15px;
   transition: all .4s ease-in;
   width: 32%;
 }
+
 section {
   padding: 150px 0;
 }
@@ -196,4 +197,39 @@ li a:hover {
   color: #d8c589;
   background-color: rgba(255, 255, 255, 0);
   border-color: #dee2e600 #dee2e600 rgba(255, 255, 255, 0);
+}
+
+/* News ----------------------------------------------*/
+.post{
+	position: relative;
+	display: grid;
+	justify-content: center;
+	grid-template-areas: "a";
+}
+.like{
+	width: 300px;
+	z-index: 1;
+	background: #3b6d8cad;
+	grid-area: a;
+	-webkit-clip-path: circle(0% at 50% 50%);
+	clip-path: circle(0% at 50% 50%);
+	transition: all .3s ease-in-out;
+	opacity: 0;
+	color: #ffffffc9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.like i{
+	margin: 1rem;
+	cursor: pointer;
+}
+img{
+	grid-area: a;
+}
+.post:hover .like{
+	-webkit-clip-path: circle(100.0% at 50% 50%);
+	clip-path: circle(100.0% at 50% 50%);
+	opacity: 1;
+
 }
