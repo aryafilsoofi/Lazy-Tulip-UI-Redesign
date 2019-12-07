@@ -199,7 +199,8 @@ li a:hover {
   border-color: #dee2e600 #dee2e600 rgba(255, 255, 255, 0);
 }
 
-/* News ----------------------------------------------*/
+/* News 
+----------------------------------------------*/
 .post{
 	position: relative;
 	display: grid;
@@ -231,5 +232,7 @@ img{
 	-webkit-clip-path: circle(100.0% at 50% 50%);
 	clip-path: circle(100.0% at 50% 50%);
 	opacity: 1;
-
+}
+#news .btn-outline-secondary {
+  width: auto;
 }
