@@ -227,7 +227,10 @@ h4 {
 	grid-template-areas: "a";
 }
 .like{
-	width: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 0 0;
 	z-index: 1;
 	background: #3b6d8cad;
 	grid-area: a;
@@ -236,16 +239,18 @@ h4 {
 	transition: all .3s ease-in-out;
 	opacity: 0;
 	color: #ffffffc9;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 .like i{
 	margin: 1rem;
 	cursor: pointer;
 }
-img{
+.postImg{
 	grid-area: a;
+	width: 100%;
+	flex: 0 0;
+}
+.postImg img{
+	width: 100%;
 }
 .post:hover .like{
 	-webkit-clip-path: circle(100.0% at 50% 50%);
