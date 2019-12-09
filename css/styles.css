@@ -199,6 +199,25 @@ li a:hover {
   border-color: #dee2e600 #dee2e600 rgba(255, 255, 255, 0);
 }
 
+
+/* Menu Items
+----------------------------------------------*/
+.text-center img.card-img-top {
+  margin-bottom: 0px;
+}
+
+.card .btn {
+  width: 100%;
+}
+
+h4 {
+  font-family: 'Cormorant Garamond', serif;
+  color: #303030;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+
 /* News 
 ----------------------------------------------*/
 .post{
