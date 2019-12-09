@@ -147,69 +147,172 @@
               <ul class="nav nav-tabs justify-content-center" id="tulipTabs" role="tablist">
                 <!-- breakfast -->
                   <li class="nav-item">
-                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Breakfast</a>
+                    <a class="nav-link active" id="breakfast-tab" data-toggle="tab" href="#breakfast" role="tab" aria-controls="breakfast" aria-selected="true">Breakfast</a>
                   </li>
                   <!-- lunch-->
                   <li class="nav-item">
-                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Lunch</a>
+                    <a class="nav-link" id="lunch-tab" data-toggle="tab" href="#lunch" role="tab" aria-controls="lunch" aria-selected="false">Lunch</a>
                   </li>
                   <!-- seasonal-->
                   <li class="nav-item">
-                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Seasonal</a>
+                    <a class="nav-link" id="seasonal-tab" data-toggle="tab" href="#seasonal" role="tab" aria-controls="seasonal" aria-selected="false">Seasonal</a>
                   </li>
               </ul>
               <!-- menu options content -->
               <div class="tab-content mt-4" id="tulipTabsContent">
                 <!-- breakfast content -->
-                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                    <div class="row px-3">
-                      
-                    <!-- Row end -->
-                    </div>
-                </div>
-
-                <!-- lunch content -->
-                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+                <div class="tab-pane fade show active" id="breakfast" role="tabpanel" aria-labelledby="breakfast-tab">
                   <div class="row px-3">
-
-                  <!-- Row end -->
-                  </div>
-
-                <!-- seasonal content -->
-                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
-                  <div class="row px-3">
-                    <div class="col-md-3 col-sm-6 ">
+                    <div class="col-md-3 col-sm-6 px-1">
                       <div class="card px-0">
-                        <img class="card-img-top" src="./img/menu/seasonal1.png" alt="" />
+                        <img class="card-img-top" src="./img/menu/breakfast1.png" alt="" />
                         <div class="card-body">
-                          <h4 class="card-title">Menu Item</h5>
-                          <a href="#" class="btn btn-outline-secondary">Details</a>
+                          <h4 class="card-title">Menu Item</h4>
+                          <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#modalS1">Details</button>
                         </div>
                       <!-- Card end  -->
                       </div>
                     </div>
                     
-
-                      <div class="card col-md-3 col-sm-6 px-0">
-                        <img class="card-img-top" src="./img/menu/seasonal2.png" alt="" />
+                    <div class="col-md-3 col-sm-6 px-1">
+                      <div class="card px-0">
+                        <img class="card-img-top" src="./img/menu/breakfast2.png" alt="" />
                         <div class="card-body">
                           <h4 class="card-title">Menu Item</h5>
-                          <a href="#" class="btn btn-outline-secondary">Details</a>
+                          <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#modalS1">Details</button>
                         </div>
                       <!-- Card end  -->
                       </div>
+                    </div>
 
-                      <div class="card col-md-3 col-sm-6 px-0">
-                        <img class="card-img-top" src="./img/menu/seasonal3.png" alt="" />
+                    <div class="col-md-3 col-sm-6 px-1">
+                      <div class="card px-0">
+                        <img class="card-img-top" src="./img/menu/breakfast3.png" alt="" />
                         <div class="card-body">
                           <h4 class="card-title">Menu Item</h5>
-                          <a href="#" class="btn btn-outline-secondary">Details</a>
+                          <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#modalS1">Details</button>
                         </div>
                       <!-- Card end  -->
                       </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 px-1">
+                      <div class="card px-0">
+                        <img class="card-img-top" src="./img/menu/breakfast4.png" alt="" />
+                        <div class="card-body">
+                          <h4 class="card-title">Menu Item</h5>
+                          <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#modalS1">Details</button>
+                        </div>
+                      <!-- Card end  -->
+                      </div>
+                    </div>
 
                   <!-- Row end -->
                   </div>
+                </div>
+
+                <!-- lunch content -->
+                <div class="tab-pane fade" id="lunch" role="tabpanel" aria-labelledby="lunch-tab">
+                  <div class="row px-3">
+                    <div class="col-md-3 col-sm-6 px-1">
+                      <div class="card px-0">
+                        <img class="card-img-top" src="./img/menu/lunch1.png" alt="" />
+                        <div class="card-body">
+                          <h4 class="card-title">Menu Item</h4>
+                          <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#modalS1">Details</button>
+                        </div>
+                      <!-- Card end  -->
+                      </div>
+                    </div>
+                    
+                    <div class="col-md-3 col-sm-6 px-1">
+                      <div class="card px-0">
+                        <img class="card-img-top" src="./img/menu/lunch2.png" alt="" />
+                        <div class="card-body">
+                          <h4 class="card-title">Menu Item</h5>
+                          <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#modalS1">Details</button>
+                        </div>
+                      <!-- Card end  -->
+                      </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 px-1">
+                      <div class="card px-0">
+                        <img class="card-img-top" src="./img/menu/lunch3.png" alt="" />
+                        <div class="card-body">
+                          <h4 class="card-title">Menu Item</h5>
+                          <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#modalS1">Details</button>
+                        </div>
+                      <!-- Card end  -->
+                      </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 px-1">
+                      <div class="card px-0">
+                        <img class="card-img-top" src="./img/menu/lunch4.png" alt="" />
+                        <div class="card-body">
+                          <h4 class="card-title">Menu Item</h5>
+                          <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#modalS1">Details</button>
+                        </div>
+                      <!-- Card end  -->
+                      </div>
+                    </div>
+
+                  <!-- Row end -->
+                  </div>
+                </div>
+
+                <!-- seasonal content -->
+                <div class="tab-pane fade" id="seasonal" role="tabpanel" aria-labelledby="seasonal-tab">
+                  <div class="row px-3">
+                    <div class="col-md-3 col-sm-6 px-1">
+                      <div class="card px-0">
+                        <img class="card-img-top" src="./img/menu/seasonal1.png" alt="" />
+                        <div class="card-body">
+                          <h4 class="card-title">Menu Item</h4>
+                          <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#modalS1">Details</button>
+                       </div>
+                      <!-- Card end  -->
+                      </div>
+                    </div>
+                    
+                    <div class="col-md-3 col-sm-6 px-1">
+                      <div class="card px-0">
+                        <img class="card-img-top" src="./img/menu/seasonal3.png" alt="" />
+                        <div class="card-body">
+                          <h4 class="card-title">Menu Item</h5>
+                          <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#modalS1">Details</button>
+                        </div>
+                      <!-- Card end  -->
+                      </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 px-1">
+                      <div class="card px-0">
+                        <img class="card-img-top" src="./img/menu/seasonal2.png" alt="" />
+                        <div class="card-body">
+                          <h4 class="card-title">Menu Item</h5>
+                          <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#modalS1">Details</button>
+                        </div>
+                      <!-- Card end  -->
+                      </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 px-1">
+                      <div class="card px-0">
+                        <img class="card-img-top" src="./img/menu/seasonal4.png" alt="" />
+                        <div class="card-body">
+                          <h4 class="card-title">Menu Item</h5>
+                          <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#modalS1">Details</button>
+                        </div>
+                      <!-- Card end  -->
+                      </div>
+                    </div>
+
+                  <!-- Row end -->
+                  </div>
+                <!-- Seasonal content end -->
+                </div>
 
               </div><!-- menu options content close -->
             </div>
