@@ -11,5 +11,6 @@ A modern redesign of a local cafe's website using HTML, CSS & JavaScript
 * [Bootstrap 4](https://getbootstrap.com/)
 
 ## Demo
+https://lazy-tulip-ui-redesign.now.sh/
 
 

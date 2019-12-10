@@ -1,0 +1,262 @@
+/* Fonts 
+----------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,500i,600,700,700i&display=swap');
+
+/* Global styles
+----------------------------------------------*/
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100%;
+  font-weight: 300;
+  line-height: 30px;
+  color: #646464;
+}
+h1 {
+  font-family: 'Cormorant Garamond', serif;
+  color: #ffff;
+  font-weight: 700;
+  font-size: 106px;
+  font-style: italic;
+  text-transform: capitalize;
+}
+h2 {
+  font-family: 'Cormorant Garamond', serif;
+  color: #303030;
+  font-weight: 500;
+  font-size: 45px;
+  font-style: italic;
+  text-transform: capitalize;
+}
+h3 {
+  font-family: 'Cormorant Garamond', serif;
+  color: #303030;
+  font-weight: 500;
+  font-size: 40px;
+  font-style: italic;
+  text-transform: capitalize;
+}
+strong {
+  color: #3b6d8d;
+}
+p {
+font-size: 15px;
+}
+.btn-outline-secondary {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 500;
+  font-size: 20px;
+  font-style: italic;
+  color: #3b6d8d;
+  border: solid 1px #3b6d8d;
+  width: 32%;
+  transition: all .4s ease-out;
+}
+.btn-outline-secondary:hover {
+  color: #fff;
+  background-color: #3b6d8d;
+  border: solid 1px #3b6d8d;
+  transition: all .4s ease-in;
+  width: 32%;
+}
+
+section {
+  padding: 150px 0;
+}
+
+/* Navigation
+----------------------------------------------*/
+.nav-item {
+  margin-right: 30px;
+}
+.scroll {
+  background-color: #A1572F;
+  color: #eef;
+}
+.navbar {
+  transition:500ms ease;
+  background:transparent;
+}
+/* add nav background color on scroll */
+.navbar-expand-lg.scrolled {
+  background:rgba(59, 109, 140, 0.68);
+
+}
+/* Header
+----------------------------------------------*/
+header {
+  padding: 156px 0 100px;
+  background-image: url("../img/background-slider.jpg");
+  background-color: #cccccc;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text-center {
+  margin-top: 6%;
+}
+.text-center img {
+  margin-bottom: -55px;
+}
+/* Moving arrow */
+img.vert-move {
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+}
+img.vert-move {
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+
+
+/* About
+----------------------------------------------*/
+#about {
+background-image: url("../img/Always-fresh2.jpg");
+background-color: #ef4849;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+/* Slogan
+----------------------------------------------*/
+.overlay {
+  background-color: #3030303b;
+}
+#slogan {
+  background-image: url("../img/buddha.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#slogan h2 {
+  font-family: 'Cormorant Garamond', serif;
+  color: #ffff;
+  font-weight: 600;
+  font-style: italic;
+  text-transform: lowercase;
+}
+#slogan .text-center {
+  margin-top: 2%;
+}
+
+
+/* Menu
+----------------------------------------------*/
+#menu-intro {
+  background-image: url("../img/background-tulip.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#menu {
+  background-image: url("../img/bowls-of-food.png");
+  background-color: #ffff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Menu Tabs */
+.nav-link.active a {
+  font-family: 'Montserrat', sans-serif;
+  color: #3b6d8d;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: capitalize;
+  text-decoration: none;
+  transition: all .2s ease-in;
+}
+li a {
+  font-family: 'Montserrat', sans-serif;
+  color: #3b6d8d;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: capitalize;
+  text-decoration: none;
+  transition: all .2s ease-in;
+}
+li a:hover {
+  text-decoration: none;
+  color: #d8c589;
+}
+.nav-tabs .nav-link.active {
+  color: #d8c589;
+  background-color: rgba(255, 255, 255, 0);
+  border-color: #dee2e600 #dee2e600 rgba(255, 255, 255, 0);
+}
+
+
+/* Menu Items
+----------------------------------------------*/
+.text-center img.card-img-top {
+  margin-bottom: 0px;
+}
+
+.card .btn {
+  width: 100%;
+}
+
+h4 {
+  font-family: 'Cormorant Garamond', serif;
+  color: #303030;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+
+/* News 
+----------------------------------------------*/
+.post{
+	position: relative;
+	display: grid;
+	justify-content: center;
+	grid-template-areas: "a";
+}
+.like{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 0 0;
+	z-index: 1;
+	background: #3b6d8cad;
+	grid-area: a;
+	-webkit-clip-path: circle(0% at 50% 50%);
+	clip-path: circle(0% at 50% 50%);
+	transition: all .3s ease-in-out;
+	opacity: 0;
+	color: #ffffffc9;
+}
+.like i{
+	margin: 1rem;
+	cursor: pointer;
+}
+.postImg{
+	grid-area: a;
+	width: 100%;
+	flex: 0 0;
+}
+.postImg img{
+	width: 100%;
+}
+.post:hover .like{
+	-webkit-clip-path: circle(100.0% at 50% 50%);
+	clip-path: circle(100.0% at 50% 50%);
+	opacity: 1;
+}
+#news .btn-outline-secondary {
+  width: auto;
+}
