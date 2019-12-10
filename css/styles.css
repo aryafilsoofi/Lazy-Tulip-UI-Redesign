@@ -206,7 +206,15 @@ li a:hover {
   margin-bottom: 0px;
 }
 
+.modal-body img {
+  margin-bottom: 20px;
+}
+
 .card .btn {
+  width: 100%;
+}
+
+.modal-title {
   width: 100%;
 }
 
