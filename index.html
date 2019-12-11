@@ -343,8 +343,7 @@
 
     <!-- News -->
     <section id="news">
-        <div class="container">
-            <!-- Container -->
+        <div class="container"><!-- container start -->
 
             <!-- Instagram feed-->
             <div class="col-lg-12 mx-auto text-center">
@@ -405,15 +404,51 @@
     </section>
 
         <!-- contact -->
-        <section id="contact">
-                <div class="container">
-                    <div class="row">
-                    </div>
+    <section id="contact">
+    <div class="container"><!-- container start -->
+        <div class="row"><!-- row start -->
+            <div class="col-lg-8 offset-lg-2 col-md-6 text-center"><!-- row start -->
+                <h3>Keep in Touch</h3>
+                <img src="img/menu-border-bottom.svg" class="img-fluid mb-5" alt="Responsive image" width="400">
+                <div class="icon_wrapper">
                 </div>
-        </section>
+                <form action="#" method="post" id="contact_form">
+                <div class="name">
+                <label for="name"></label>
+                <input type="text" placeholder="My name is" name="name" id="name_input" required>
+                </div>
+                <div class="email">
+                <label for="email"></label>
+                <input type="email" placeholder="My e-mail is" name="email" id="email_input" required>
+                </div>
+                <div class="telephone">
+                <label for="name"></label>
+                <input type="text" placeholder="My number is" name="telephone" id="telephone_input" required>
+                </div>
+                <div class="subject">
+                <label for="subject"></label>
+                <select placeholder="Subject line" name="subject" id="subject_input" required>
+                <option disabled hidden selected>Subject line</option>
+                <option>I'd like to start a project</option>
+                <option>I'd like to ask a question</option>
+                <option>I'd like to make a proposal</option>
+                </select>
+                </div>
+                <div class="message">
+                <label for="message"></label>
+                <textarea name="message" placeholder="I'd like to chat about" id="message_input" cols="30" rows="5" required></textarea>
+                </div>
+                <div class="submit">
+                <input type="submit" value="Send Message" id="form_button" />
+                </div>
+                </form><!-- form end -->
+            </div><!-- col end -->
+        </div><!-- row end -->
+    </div><!-- container end -->
+    </section>
 
     <!-- footer-->
-    <footer class="mt-5 pt-5 pb-5 footer" id="contact">
+    <footer class="mt-5 pt-5 pb-5 footer" id="footer">
         <div class="container"><!-- container start -->
             <div class="row">
                 <div class="col-lg-5 col-xs-12 about-company">
