@@ -57,6 +57,7 @@ p {
     border: solid 1px #3b6d8d;
     width: 32%;
     transition: all .4s ease-out;
+    width: auto;
 }
 
 .btn-outline-secondary:hover {
@@ -64,7 +65,7 @@ p {
     background-color: #3b6d8d;
     border: solid 1px #3b6d8d;
     transition: all .4s ease-in;
-    width: 32%;
+    width: auto;
 }
 
 section {
@@ -311,12 +312,30 @@ h4 {
 
 /* Contact 
 -----------------------------------------------*/
-button, input, select, textarea {
-    color: #5A5A5A;
-    font: inherit;
-    margin: 0;
+#contact {
+    background-image: url("../img/bowls-of-food.png");
+    background-color: #ffff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#contact .container {
+    background-color: #fff;
+}
+button {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: italic;
+    color: #3b6d8d;
+    border: solid 1px #3b6d8d;
+    width: 32%;
+    transition: all .4s ease-out;
   }
-  
+  input, select, textarea {
+    font-family: 'Montserrat', sans-serif;
+    color: #5A5A5A;
+  }
   input {
     line-height: normal;
   }
@@ -326,8 +345,6 @@ button, input, select, textarea {
   }
   
   #contact .container {
-    border: solid 3px #3b6d8cad;
-    margin: 60px auto;
     position: relative;
   }
   
@@ -401,8 +418,6 @@ button, input, select, textarea {
   select {
     background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png') no-repeat right;
     outline: none;
-    -moz-appearance: none;
-    -webkit-appearance: none;
   }
   
   select::-ms-expand {
@@ -442,73 +457,6 @@ button, input, select, textarea {
       color: #474544;
   }
   
-  #form_button {
-    background: none;
-    border: solid 2px #474544;
-    color: #474544;
-    cursor: pointer;
-    display: inline-block;
-    font-family: 'Helvetica', Arial, sans-serif;
-    font-size: 0.875em;
-    font-weight: bold;
-    outline: none;
-    padding: 20px 35px;
-    text-transform: uppercase;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-  }
-  
-  #form_button:hover {
-    background: #474544;
-    color: #F2F3EB;
-  }
-  
-  @media screen and (max-width: 768px) {
-    #container {
-      margin: 20px auto;
-      width: 95%;
-    }
-  }
-  
-  @media screen and (max-width: 480px) {
-    h1 {
-      font-size: 26px;
-    }
-    
-    .underline {
-      width: 68px;
-    }
-    
-    #form_button {
-      padding: 15px 25px;
-    }
-  }
-  
-  @media screen and (max-width: 420px) {
-    h1 {
-      font-size: 18px;
-    }
-    
-    .icon {
-      height: 35px;
-      width: 35px;
-    }
-    
-    .underline {
-      width: 53px;
-    }
-    
-    input[type='text'], [type='email'], select, textarea {
-      font-size: 0.875em;
-    }
-  }
-
-
-
-
 
 /* Footer 
 ----------------------------------------------*/

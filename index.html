@@ -405,42 +405,41 @@
 
         <!-- contact -->
     <section id="contact">
-    <div class="container"><!-- container start -->
+    <div class="container shadow-sm"><!-- container start -->
         <div class="row"><!-- row start -->
             <div class="col-lg-8 offset-lg-2 col-md-6 text-center"><!-- row start -->
                 <h3>Keep in Touch</h3>
-                <img src="img/menu-border-bottom.svg" class="img-fluid mb-5" alt="Responsive image" width="400">
+                <img src="img/menu-border-bottom.svg" class="img-fluid mb-3" alt="Responsive image" width="400">
                 <div class="icon_wrapper">
                 </div>
-                <form action="#" method="post" id="contact_form">
-                <div class="name">
-                <label for="name"></label>
-                <input type="text" placeholder="My name is" name="name" id="name_input" required>
-                </div>
-                <div class="email">
-                <label for="email"></label>
-                <input type="email" placeholder="My e-mail is" name="email" id="email_input" required>
-                </div>
-                <div class="telephone">
-                <label for="name"></label>
-                <input type="text" placeholder="My number is" name="telephone" id="telephone_input" required>
-                </div>
-                <div class="subject">
-                <label for="subject"></label>
-                <select placeholder="Subject line" name="subject" id="subject_input" required>
-                <option disabled hidden selected>Subject line</option>
-                <option>I'd like to start a project</option>
-                <option>I'd like to ask a question</option>
-                <option>I'd like to make a proposal</option>
-                </select>
-                </div>
-                <div class="message">
-                <label for="message"></label>
-                <textarea name="message" placeholder="I'd like to chat about" id="message_input" cols="30" rows="5" required></textarea>
-                </div>
-                <div class="submit">
-                <input type="submit" value="Send Message" id="form_button" />
-                </div>
+                <form action="#" method="post" id="contact_form"><!-- form start -->
+                    <!-- name -->
+                    <div class="name">
+                        <label for="name"></label>
+                        <input type="text" placeholder="My name is" name="name" id="name_input" required>
+                    </div>
+                    <!-- email -->
+                    <div class="email">
+                        <label for="email"></label>
+                        <input type="email" placeholder="My e-mail is" name="email" id="email_input" required>
+                    </div>
+                    <!-- subject -->
+                    <div class="subject">
+                        <label for="subject"></label>
+                        <select placeholder="Subject line" name="subject" id="subject_input" required>
+                            <option disabled hidden selected>Subject line</option>
+                            <option>I'd like to ask a question</option>
+                            <option>I'd like to book an event</option>
+                            <option>I'd like to learn more</option>
+                        </select>
+                    </div>
+                    <div class="message">
+                    <label for="message"></label>
+                    <textarea name="message" placeholder="I'd like to chat about" id="message_input" cols="30" rows="5" required></textarea>
+                    </div>
+                    <div class="submit">
+                    <input type="submit" class="btn btn-outline-secondary" value="Send Message" id="form_button" />
+                    </div>
                 </form><!-- form end -->
             </div><!-- col end -->
         </div><!-- row end -->
@@ -451,9 +450,9 @@
     <footer class="mt-5 pt-5 pb-5 footer" id="footer">
         <div class="container"><!-- container start -->
             <div class="row">
-                <div class="col-lg-5 col-xs-12 about-company">
+                <div class="col-lg-5 col-xs-12 about-company mb-3">
                     <h2>See You Soon!</h2>
-                    <p class="pr-5 text-white-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac
+                    <p class="pr-5 text-white-50 mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac
                         ante mollis quam tristique convallis </p>
                     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
                         <path
@@ -464,7 +463,7 @@
                             d="M14.829 6.302c-.738-.034-.96-.04-2.829-.04s-2.09.007-2.828.04c-1.899.087-2.783.986-2.87 2.87-.033.738-.041.959-.041 2.828s.008 2.09.041 2.829c.087 1.879.967 2.783 2.87 2.87.737.033.959.041 2.828.041 1.87 0 2.091-.007 2.829-.041 1.899-.086 2.782-.988 2.87-2.87.033-.738.04-.96.04-2.829s-.007-2.09-.04-2.828c-.088-1.883-.973-2.783-2.87-2.87zm-2.829 9.293c-1.985 0-3.595-1.609-3.595-3.595 0-1.985 1.61-3.594 3.595-3.594s3.595 1.609 3.595 3.594c0 1.985-1.61 3.595-3.595 3.595zm3.737-6.491c-.464 0-.84-.376-.84-.84 0-.464.376-.84.84-.84.464 0 .84.376.84.84 0 .463-.376.84-.84.84zm-1.404 2.896c0 1.289-1.045 2.333-2.333 2.333s-2.333-1.044-2.333-2.333c0-1.289 1.045-2.333 2.333-2.333s2.333 1.044 2.333 2.333zm-2.333-12c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.958 14.886c-.115 2.545-1.532 3.955-4.071 4.072-.747.034-.986.042-2.887.042s-2.139-.008-2.886-.042c-2.544-.117-3.955-1.529-4.072-4.072-.034-.746-.042-.985-.042-2.886 0-1.901.008-2.139.042-2.886.117-2.544 1.529-3.955 4.072-4.071.747-.035.985-.043 2.886-.043s2.14.008 2.887.043c2.545.117 3.957 1.532 4.071 4.071.034.747.042.985.042 2.886 0 1.901-.008 2.14-.042 2.886z" />
                     </svg>
                 </div>
-                <div class="col-lg-3 col-xs-12 links">
+                <div class="col-lg-3 col-xs-12 links mt-3 mb-3">
                     <h4 class="mt-lg-0 mt-sm-3">Links</h4>
                     <ul class="m-0 p-0">
                         <li>- <a href="#">Lorem ipsum</a></li>
@@ -489,13 +488,6 @@
             </div>
         </div><!-- container end -->
     </footer>
-
-    <!-- Footer -->
-    <!-- <footer class="py-5 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
-    </div>
-  </footer> -->
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
