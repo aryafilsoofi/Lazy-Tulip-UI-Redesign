@@ -95,6 +95,10 @@ section {
 
 }
 
+.navbar-toggler {
+    width: 100px;
+}
+
 /* Header
 ----------------------------------------------*/
 header {
