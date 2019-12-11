@@ -23,6 +23,12 @@ h1 {
     text-transform: capitalize;
 }
 
+@media screen and (max-width: "600px") {
+    h1{
+    font-size: 20wv;
+    }
+}
+
 h2 {
     font-family: 'Cormorant Garamond', serif;
     color: #303030;
