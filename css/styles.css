@@ -90,7 +90,7 @@ section {
 
 /* add nav background color on scroll */
 .navbar-expand-lg.scrolled {
-    background: rgba(59, 109, 140, 0.68);
+    background: rgba(59, 109, 140, 0.781);
 
 }
 
@@ -268,15 +268,18 @@ h4 {
     display: grid;
     justify-content: center;
     grid-template-areas: "a";
+    margin-bottom: 6%;
 }
-
+#news .text-center {
+    margin-top: 0;
+}
 .like {
     display: flex;
     justify-content: center;
     align-items: center;
     flex: 0 0;
     z-index: 1;
-    background: #3b6d8cad;
+    background: rgba(59, 109, 140, 0.75);
     grid-area: a;
     -webkit-clip-path: circle(0% at 50% 50%);
     clip-path: circle(0% at 50% 50%);
@@ -310,7 +313,7 @@ h4 {
     width: auto;
 }
 
-/* Contact 
+/* Contact form
 -----------------------------------------------*/
 #contact {
     background-image: url("../img/bowls-of-food.png");
@@ -353,25 +356,7 @@ button {
     margin: 50px 0;
   }
   
-  .underline {
-    border-bottom: solid 2px #474544;
-    margin: -0.512em auto;
-    width: 80px;
-  }
-  
-  .icon_wrapper {
-    margin: 50px auto 0;
-    width: 100%;
-  }
-  
-  .icon {
-    display: block;
-    fill: #474544;
-    height: 50px;
-    margin: 0 auto;
-    width: 50px;
-  }
-  
+
   .email {
       float: right;
       width: 45%;
@@ -380,7 +365,7 @@ button {
   input[type='text'], [type='email'], select, textarea {
     background: none;
     border: none;
-    border-bottom: solid 2px #474544;
+    border-bottom: solid 2px rgba(59, 109, 140, 0.54);
     color: #474544;
     font-size: 1.000em;
     font-weight: 400;
@@ -416,8 +401,11 @@ button {
   }
   
   select {
-    background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png') no-repeat right;
+    background: url('https://img.icons8.com/small/16/000000/expand-arrow.png') no-repeat right;
     outline: none;
+    cursor: pointer;
+    -moz-appearance: none;
+    -webkit-appearance: none;
   }
   
   select::-ms-expand {
