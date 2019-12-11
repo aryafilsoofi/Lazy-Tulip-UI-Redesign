@@ -328,14 +328,14 @@ h4 {
     list-style-type: none;
 }
 
-.links li a {
+.links li a, a {
     color: white;
     transition: color .2s;
 }
 
-.links li a:hover {
+.links li a:hover, a:hover {
     text-decoration: none;
-    color: #4180CB;
+    color: #d8c589;
 }
 
 .about-company i {
