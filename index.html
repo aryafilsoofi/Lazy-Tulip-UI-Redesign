@@ -162,184 +162,394 @@
     </section>
 
     <!-- The actual menu-->
-    <section id="menu" class="border-bottom">
-        <div class="container-fluid">
-            <!-- container open -->
-            <div class="row">
-                <!-- row open -->
-                <div class="col-lg-8 mx-auto">
+  <section id="menu" class="border-bottom">
+    <div class="container-fluid"><!-- container open -->
+      <div class="row"><!-- row open -->
+        <div class="col-lg-8 mx-auto">
 
-                    <!-- menu card body -->
-                    <div class="card text-center shadow-sm">
+          <!-- menu card body -->
+          <div class="card text-center shadow-sm">
+            <div class="card-body">
+              <!-- menu card logo -->
+              <img src="img/logo-color.svg" class="img-fluid mt-2 mb-1" width="100" height="auto" alt="Responsive image">
+              <!-- menu card title-->
+              <h2 class="card-title mt-3 mb-2">Our Menu</h2>
+              <!-- menu card decoration-->
+              <img src="img/menu-border-bottom.svg" class="img-fluid mb-5" width="400" height="auto" alt="Responsive image">
+              <p class="mt-2 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, numquam sed. Reprehenderit est ratione molestias.</p>
+
+              <!-- menu options -->
+              <ul class="nav nav-tabs justify-content-center" id="tulipTabs" role="tablist">
+                <!-- breakfast -->
+                  <li class="nav-item">
+                    <a class="nav-link active" id="breakfast-tab" data-toggle="tab" href="#breakfast" role="tab" aria-controls="breakfast" aria-selected="true">Breakfast</a>
+                  </li>
+                  <!-- lunch-->
+                  <li class="nav-item">
+                    <a class="nav-link" id="lunch-tab" data-toggle="tab" href="#lunch" role="tab" aria-controls="lunch" aria-selected="false">Lunch</a>
+                  </li>
+                  <!-- seasonal-->
+                  <li class="nav-item">
+                    <a class="nav-link" id="seasonal-tab" data-toggle="tab" href="#seasonal" role="tab" aria-controls="seasonal" aria-selected="false">Seasonal</a>
+                  </li>
+              </ul>
+              <!-- menu options content -->
+              <div class="tab-content mt-4" id="tulipTabsContent">
+                <!-- breakfast content -->
+                <div class="tab-pane fade show active" id="breakfast" role="tabpanel" aria-labelledby="breakfast-tab">
+                  <div class="row justify-content-md-center px-3">
+                    <div class="col-md-4 col-sm-6 px-1">
+                      <div class="card px-0">
+                        <img class="card-img-top" src="./img/menu/breakfast1.png" alt="" />
                         <div class="card-body">
-                            <!-- menu card logo -->
-                            <img src="img/logo-color.svg" class="img-fluid mt-2 mb-1" width="100" height="auto"
-                                alt="lazy tulip logo">
-                            <!-- menu card title-->
-                            <h2 class="card-title mt-3 mb-2">Our Menu</h2>
-                            <!-- menu card decoration-->
-                            <img src="img/menu-border-bottom.svg" class="img-fluid mb-5" width="400" height="auto"
-                                alt="decorative underline">
-                            <p class="mt-2 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,
-                                numquam sed. Reprehenderit est ratione molestias.</p>
-
-                            <!-- menu options -->
-                            <ul class="nav nav-tabs justify-content-center" id="tulipTabs" role="tablist">
-                                <!-- breakfast -->
-                                <li class="nav-item">
-                                    <a class="nav-link active" id="breakfast-tab" data-toggle="tab" href="#breakfast"
-                                        role="tab" aria-controls="breakfast" aria-selected="true">Breakfast</a>
-                                </li>
-                                <!-- lunch-->
-                                <li class="nav-item">
-                                    <a class="nav-link" id="lunch-tab" data-toggle="tab" href="#lunch" role="tab"
-                                        aria-controls="lunch" aria-selected="false">Lunch</a>
-                                </li>
-                                <!-- seasonal-->
-                                <li class="nav-item">
-                                    <a class="nav-link" id="seasonal-tab" data-toggle="tab" href="#seasonal" role="tab"
-                                        aria-controls="seasonal" aria-selected="false">Seasonal</a>
-                                </li>
-                            </ul>
-                            <!-- menu options content -->
-                            <div class="tab-content mt-4" id="tulipTabsContent">
-                                <!-- breakfast content -->
-                                <div class="tab-pane fade show active" id="breakfast" role="tabpanel"
-                                    aria-labelledby="breakfast-tab">
-                                    <div class="row px-3">
-                                        <div class="col-md-4 col-sm-6 px-1">
-                                            <div class="card px-0">
-                                                <img class="card-img-top" src="./img/menu/breakfast1.png" alt="" />
-                                                <div class="card-body">
-                                                    <h4 class="card-title">Menu Item</h4>
-                                                    <button type="button" class="btn btn-outline-secondary"
-                                                        data-toggle="modal" data-target="#modalS1">Details</button>
-                                                </div>
-                                                <!-- Card end  -->
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4 col-sm-6 px-1">
-                                            <div class="card px-0">
-                                                <img class="card-img-top" src="./img/menu/breakfast2.png" alt="" />
-                                                <div class="card-body">
-                                                    <h4 class="card-title">Menu Item</h5>
-                                                        <button type="button" class="btn btn-outline-secondary"
-                                                            data-toggle="modal" data-target="#modalS1">Details</button>
-                                                </div>
-                                                <!-- Card end  -->
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4 col-sm-6 px-1">
-                                            <div class="card px-0">
-                                                <img class="card-img-top" src="./img/menu/breakfast3.png" alt="" />
-                                                <div class="card-body">
-                                                    <h4 class="card-title">Menu Item</h5>
-                                                        <button type="button" class="btn btn-outline-secondary"
-                                                            data-toggle="modal" data-target="#modalS1">Details</button>
-                                                </div>
-                                                <!-- Card end  -->
-                                            </div>
-                                        </div>
-                                        <!-- Row end -->
-                                    </div>
-                                </div>
-
-                                <!-- lunch content -->
-                                <div class="tab-pane fade" id="lunch" role="tabpanel" aria-labelledby="lunch-tab">
-                                    <div class="row px-3">
-                                        <div class="col-md-4 col-sm-6 px-1">
-                                            <div class="card px-0">
-                                                <img class="card-img-top" src="./img/menu/lunch1.png" alt="" />
-                                                <div class="card-body">
-                                                    <h4 class="card-title">Menu Item</h4>
-                                                    <button type="button" class="btn btn-outline-secondary"
-                                                        data-toggle="modal" data-target="#modalS1">Details</button>
-                                                </div>
-                                                <!-- Card end  -->
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4 col-sm-6 px-1">
-                                            <div class="card px-0">
-                                                <img class="card-img-top" src="./img/menu/lunch2.png" alt="" />
-                                                <div class="card-body">
-                                                    <h4 class="card-title">Menu Item</h5>
-                                                        <button type="button" class="btn btn-outline-secondary"
-                                                            data-toggle="modal" data-target="#modalS1">Details</button>
-                                                </div>
-                                                <!-- Card end  -->
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4 col-sm-6 px-1">
-                                            <div class="card px-0">
-                                                <img class="card-img-top" src="./img/menu/lunch3.png" alt="" />
-                                                <div class="card-body">
-                                                    <h4 class="card-title">Menu Item</h5>
-                                                        <button type="button" class="btn btn-outline-secondary"
-                                                            data-toggle="modal" data-target="#modalS1">Details</button>
-                                                </div>
-                                                <!-- Card end  -->
-                                            </div>
-                                        </div>
-
-                                        <!-- Row end -->
-                                    </div>
-                                </div>
-
-                                <!-- seasonal content -->
-                                <div class="tab-pane fade" id="seasonal" role="tabpanel" aria-labelledby="seasonal-tab">
-                                    <div class="row px-3">
-                                        <div class="col-md-4 col-sm-6 px-1">
-                                            <div class="card px-0">
-                                                <img class="card-img-top" src="./img/menu/seasonal1.png" alt="" />
-                                                <div class="card-body">
-                                                    <h4 class="card-title">Menu Item</h4>
-                                                    <button type="button" class="btn btn-outline-secondary"
-                                                        data-toggle="modal" data-target="#modalS1">Details</button>
-                                                </div>
-                                                <!-- Card end  -->
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4 col-sm-6 px-1">
-                                            <div class="card px-0">
-                                                <img class="card-img-top" src="./img/menu/seasonal3.png" alt="" />
-                                                <div class="card-body">
-                                                    <h4 class="card-title">Menu Item</h5>
-                                                        <button type="button" class="btn btn-outline-secondary"
-                                                            data-toggle="modal" data-target="#modalS1">Details</button>
-                                                </div>
-                                                <!-- Card end  -->
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-4 col-sm-6 px-1">
-                                            <div class="card px-0">
-                                                <img class="card-img-top" src="./img/menu/seasonal2.png" alt="" />
-                                                <div class="card-body">
-                                                    <h4 class="card-title">Menu Item</h5>
-                                                        <button type="button" class="btn btn-outline-secondary"
-                                                            data-toggle="modal" data-target="#modalS1">Details</button>
-                                                </div>
-                                                <!-- Card end  -->
-                                            </div>
-                                        </div>
-
-                                        <!-- Row end -->
-                                    </div>
-                                    <!-- Seasonal content end -->
-                                </div>
-
-                            </div><!-- menu options content close -->
+                          <h4 class="card-title">Avocado Toast</h4>
+                          <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#modalB1">Details</button>
                         </div>
-                    </div><!-- menu card close -->
+                      <!-- Card end  -->
+                      </div>
+                    </div>
+                    
+                    <div class="col-md-4 col-sm-6 px-1">
+                      <div class="card px-0">
+                        <img class="card-img-top" src="./img/menu/breakfast2.png" alt="" />
+                        <div class="card-body">
+                          <h4 class="card-title">Eggs Benedict</h5>
+                          <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#modalB2">Details</button>
+                        </div>
+                      <!-- Card end  -->
+                      </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 px-1">
+                      <div class="card px-0">
+                        <img class="card-img-top" src="./img/menu/breakfast3.png" alt="" />
+                        <div class="card-body">
+                          <h4 class="card-title">Morning Greens</h5>
+                          <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#modalB3">Details</button>
+                        </div>
+                      <!-- Card end  -->
+                      </div>
+                    </div>
+                  <!-- Row end -->
+                  </div>
                 </div>
-            </div><!-- row close -->
-        </div><!-- container close -->
-    </section>
+
+                <!-- lunch content -->
+                <div class="tab-pane fade" id="lunch" role="tabpanel" aria-labelledby="lunch-tab">
+                  <div class="row justify-content-md-center px-3">
+                    <div class="col-md-4 col-sm-6 px-1">
+                      <div class="card px-0">
+                        <img class="card-img-top" src="./img/menu/lunch1.png" alt="" />
+                        <div class="card-body">
+                          <h4 class="card-title">Ceasar Supreme</h4>
+                          <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#modalL1">Details</button>
+                        </div>
+                      <!-- Card end  -->
+                      </div>
+                    </div>
+                    
+                    <div class="col-md-4 col-sm-6 px-1">
+                      <div class="card px-0">
+                        <img class="card-img-top" src="./img/menu/lunch2.png" alt="" />
+                        <div class="card-body">
+                          <h4 class="card-title">Rigatone Alfredo</h5>
+                          <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#modalL2">Details</button>
+                        </div>
+                      <!-- Card end  -->
+                      </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 px-1">
+                      <div class="card px-0">
+                        <img class="card-img-top" src="./img/menu/lunch3.png" alt="" />
+                        <div class="card-body">
+                          <h4 class="card-title">Fresh Spring Salad</h5>
+                          <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#modalL3">Details</button>
+                        </div>
+                      <!-- Card end  -->
+                      </div>
+                    </div>
+                  <!-- Row end -->
+                  </div>
+                </div>
+
+                <!-- seasonal content -->
+                <div class="tab-pane fade" id="seasonal" role="tabpanel" aria-labelledby="seasonal-tab">
+                  <div class="row justify-content-md-center px-3">
+                    <div class="col-md-4 col-sm-6 px-1">
+                      <div class="card px-0">
+                        <img class="card-img-top" src="./img/menu/seasonal1.png" alt="" />
+                        <div class="card-body">
+                          <h4 class="card-title">Butternut Bisque</h4>
+                          <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#modalS1">Details</button>
+                       </div>
+                      <!-- Card end  -->
+                      </div>
+                    </div>
+                    
+                    <div class="col-md-4 col-sm-6 px-1">
+                      <div class="card px-0">
+                        <img class="card-img-top" src="./img/menu/seasonal3.png" alt="" />
+                        <div class="card-body">
+                          <h4 class="card-title">Zucchini Rice</h4>
+                          <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#modalS2">Details</button>
+                        </div>
+                      <!-- Card end  -->
+                      </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 px-1">
+                      <div class="card px-0">
+                        <img class="card-img-top" src="./img/menu/seasonal2.png" alt="" />
+                        <div class="card-body">
+                          <h4 class="card-title">Squash Spaghetti</h4>
+                          <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#modalS3">Details</button>
+                        </div>
+                      <!-- Card end  -->
+                      </div>
+                    </div>
+                  <!-- Row end -->
+                  </div>
+                <!-- Seasonal content end -->
+                </div>
+
+                <!-- Beginning of modal list -->
+
+                <div class="modal fade " id="modalB1" tabindex="-1" role="dialog" aria-labelledby="modalB1Label" aria-hidden="true">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h2 class="modal-title" id="modalB1Label">Avocado Toast</h2>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="container-fluid">
+                          <div class="row">
+                            <div class="col-md-12 col-lg-4">
+                              <img src="img/menu/breakfast1.png" class="img-fluid" alt="" />
+                            </div>
+                            <div class="col-md-12 col-lg-8">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="modal fade " id="modalB2" tabindex="-1" role="dialog" aria-labelledby="modalB2Label" aria-hidden="true">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h2 class="modal-title" id="modalB2Label">Spinach Eggs Benedict</h2>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="container-fluid">
+                          <div class="row">
+                            <div class="col-md-12 col-lg-4">
+                              <img src="img/menu/breakfast2.png" class="img-fluid" alt="" />
+                            </div>
+                            <div class="col-md-12 col-lg-8">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="modal fade " id="modalB3" tabindex="-1" role="dialog" aria-labelledby="modalB3Label" aria-hidden="true">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h2 class="modal-title" id="modalL3Label">Morning Greens</h2>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="container-fluid">
+                          <div class="row">
+                            <div class="col-md-12 col-lg-4">
+                              <img src="img/menu/breakfast3.png" class="img-fluid" alt="" />
+                            </div>
+                            <div class="col-md-12 col-lg-8">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="modal fade " id="modalL1" tabindex="-1" role="dialog" aria-labelledby="modalL1Label" aria-hidden="true">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h2 class="modal-title" id="modalL1Label">Ceasar Supreme</h2>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="container-fluid">
+                          <div class="row">
+                            <div class="col-md-12 col-lg-4">
+                              <img src="img/menu/lunch1.png" class="img-fluid" alt="" />
+                            </div>
+                            <div class="col-md-12 col-lg-8">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="modal fade " id="modalL2" tabindex="-1" role="dialog" aria-labelledby="modalL2Label" aria-hidden="true">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h2 class="modal-title" id="modalL2Label">Rigatone Alfredo</h2>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="container-fluid">
+                          <div class="row">
+                            <div class="col-md-12 col-lg-4">
+                              <img src="img/menu/lunch2.png" class="img-fluid" alt="" />
+                            </div>
+                            <div class="col-md-12 col-lg-8">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="modal fade " id="modalL3" tabindex="-1" role="dialog" aria-labelledby="modalL3Label" aria-hidden="true">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h2 class="modal-title" id="modalL3Label">Fresh Spring Salad</h2>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="container-fluid">
+                          <div class="row">
+                            <div class="col-md-12 col-lg-4">
+                              <img src="img/menu/lunch3.png" class="img-fluid" alt="" />
+                            </div>
+                            <div class="col-md-12 col-lg-8">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="modal fade " id="modalS1" tabindex="-1" role="dialog" aria-labelledby="modalS1Label" aria-hidden="true">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h2 class="modal-title" id="modalS1Label">Butternut Bisque</h2>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="container-fluid">
+                          <div class="row">
+                            <div class="col-md-12 col-lg-4">
+                              <img src="img/menu/seasonal1.png" class="img-fluid" alt="" />
+                            </div>
+                            <div class="col-md-12 col-lg-8">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="modal fade " id="modalS2" tabindex="-1" role="dialog" aria-labelledby="modalS2Label" aria-hidden="true">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h2 class="modal-title" id="modalS2Label">Zuchinni Fried Rice</h2>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="container-fluid">
+                          <div class="row">
+                            <div class="col-md-12 col-lg-4">
+                              <img src="img/menu/seasonal3.png" class="img-fluid" alt="" />
+                            </div>
+                            <div class="col-md-12 col-lg-8">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="modal fade " id="modalS3" tabindex="-1" role="dialog" aria-labelledby="modalS3Label" aria-hidden="true">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h2 class="modal-title" id="modalS3Label">Fall Squash Spaghetti</h2>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="container-fluid">
+                          <div class="row">
+                            <div class="col-md-12 col-lg-4">
+                              <img src="img/menu/seasonal2.png" class="img-fluid" alt="" />
+                            </div>
+                            <div class="col-md-12 col-lg-8">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- End of modal list -->
+
+              </div><!-- menu options content close -->
+            </div>
+          </div><!-- menu card close -->
+        </div>
+      </div><!-- row close -->
+    </div><!-- container close -->
+  </section>
 
     <!-- News -->
     <section id="news">
