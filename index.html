@@ -188,6 +188,10 @@
                   <li class="nav-item">
                     <a class="nav-link" id="lunch-tab" data-toggle="tab" href="#lunch" role="tab" aria-controls="lunch" aria-selected="false">Lunch</a>
                   </li>
+                  <!-- drinks -->
+                  <li class="nav-item">
+                    <a class="nav-link" id="cafe-tab" data-toggle="tab" href="#cafe" role="tab" aria-controls="cafe" aria-selected="false">Cafe</a>
+                  </li>
                   <!-- seasonal-->
                   <li class="nav-item">
                     <a class="nav-link" id="seasonal-tab" data-toggle="tab" href="#seasonal" role="tab" aria-controls="seasonal" aria-selected="false">Seasonal</a>
@@ -273,6 +277,45 @@
                   </div>
                 </div>
 
+                <!-- cafe content -->
+                <div class="tab-pane fade" id="cafe" role="tabpanel" aria-labelledby="cafe-tab">
+                  <div class="row justify-content-md-center px-3">
+                    <div class="col-md-4 col-sm-6 px-1">
+                      <div class="card px-0">
+                        <img class="card-img-top" src="./img/menu/cafe1.png" alt="" />
+                        <div class="card-body">
+                          <h4 class="card-title">Feminino Drip</h4>
+                          <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#modalC1">Details</button>
+                        </div>
+                      <!-- Card end  -->
+                      </div>
+                    </div>
+                    
+                    <div class="col-md-4 col-sm-6 px-1">
+                      <div class="card px-0">
+                        <img class="card-img-top" src="./img/menu/cafe2.png" alt="" />
+                        <div class="card-body">
+                          <h4 class="card-title">Almond Latte</h5>
+                          <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#modalC2">Details</button>
+                        </div>
+                      <!-- Card end  -->
+                      </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 px-1">
+                      <div class="card px-0">
+                        <img class="card-img-top" src="./img/menu/cafe3.png" alt="" />
+                        <div class="card-body">
+                          <h4 class="card-title">Juiced Smoothies</h5>
+                          <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#modalC3">Details</button>
+                        </div>
+                      <!-- Card end  -->
+                      </div>
+                    </div>
+                  <!-- Row end -->
+                  </div>
+                </div>
+
                 <!-- seasonal content -->
                 <div class="tab-pane fade" id="seasonal" role="tabpanel" aria-labelledby="seasonal-tab">
                   <div class="row justify-content-md-center px-3">
@@ -314,7 +357,7 @@
                 </div>
 
                 <!-- Beginning of modal list -->
-
+                <!-- Breakfast modals -->
                 <div class="modal fade " id="modalB1" tabindex="-1" role="dialog" aria-labelledby="modalB1Label" aria-hidden="true">
                   <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
@@ -390,7 +433,7 @@
                   </div>
                 </div>
 
-
+                <!-- Lunch modals -->
                 <div class="modal fade " id="modalL1" tabindex="-1" role="dialog" aria-labelledby="modalL1Label" aria-hidden="true">
                   <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
@@ -466,6 +509,83 @@
                   </div>
                 </div>
 
+                <!-- cafe modal -->
+                <div class="modal fade " id="modalC1" tabindex="-1" role="dialog" aria-labelledby="modalC1Label" aria-hidden="true">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h2 class="modal-title" id="modalC1Label">Feminino Drip Brew</h2>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="container-fluid">
+                          <div class="row">
+                            <div class="col-md-12 col-lg-4">
+                              <img src="img/menu/cafe1.png" class="img-fluid" alt="" />
+                            </div>
+                            <div class="col-md-12 col-lg-8">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="modal fade " id="modalC2" tabindex="-1" role="dialog" aria-labelledby="modalC2Label" aria-hidden="true">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h2 class="modal-title" id="modalC2Label">Almond Latte</h2>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="container-fluid">
+                          <div class="row">
+                            <div class="col-md-12 col-lg-4">
+                              <img src="img/menu/cafe2.png" class="img-fluid" alt="" />
+                            </div>
+                            <div class="col-md-12 col-lg-8">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="modal fade " id="modalC3" tabindex="-1" role="dialog" aria-labelledby="modalC3Label" aria-hidden="true">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h2 class="modal-title" id="modalC3Label">Juiced Smoothies</h2>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="container-fluid">
+                          <div class="row">
+                            <div class="col-md-12 col-lg-4">
+                              <img src="img/menu/cafe3.png" class="img-fluid" alt="" />
+                            </div>
+                            <div class="col-md-12 col-lg-8">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- seasonal modals -->
                 <div class="modal fade " id="modalS1" tabindex="-1" role="dialog" aria-labelledby="modalS1Label" aria-hidden="true">
                   <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
